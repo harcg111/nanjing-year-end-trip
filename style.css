@@ -16,3 +16,11 @@ section{padding:3.5rem 6vw;max-width:1200px;margin:auto}h2{font-size:2rem;color:
 footer{background:var(--ink);color:#bbb;padding:2rem 6vw;font-size:.85rem}footer a{color:#e9c46a}
 .ph{height:190px;display:flex;align-items:center;justify-content:center;font-size:3rem;color:#fff;font-weight:700;letter-spacing:.1em}
 .card img{background:#ddd}
+/* Overview cards with photo backgrounds */
+.stats .stat{background-color:#3a1c1f;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.7);display:flex;flex-direction:column;justify-content:flex-end;min-height:170px;padding:1rem .8rem}
+.stats .stat b{color:#fff}
+.stats .stat:nth-child(1){background:linear-gradient(to top,rgba(14,8,8,.9) 0%,rgba(14,8,8,.84) 50%,rgba(14,8,8,0) 88%),url(https://commons.wikimedia.org/wiki/Special:FilePath/KuiGuangGe_of_Nanjing_Confucian_Temple.jpg?width=700) center 20%/cover no-repeat #3a1c1f}
+.stats .stat:nth-child(2){background:linear-gradient(to top,rgba(14,8,8,.9) 0%,rgba(14,8,8,.84) 50%,rgba(14,8,8,0) 88%),url(https://commons.wikimedia.org/wiki/Special:FilePath/Taicheng_sunny.jpg?width=700) center 55%/cover no-repeat #3a1c1f}
+.stats .stat:nth-child(3){background:linear-gradient(to top,rgba(14,8,8,.9) 0%,rgba(14,8,8,.84) 50%,rgba(14,8,8,0) 88%),url(https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AD%E5%8D%8E%E6%B0%91%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%BA%9C%C2%B7%E5%8D%97%E4%BA%AC%C2%B7%E8%88%AA%E6%8B%8D.jpg?width=700) center 40%/cover no-repeat #3a1c1f}
+.stats .stat:nth-child(4){background:linear-gradient(to top,rgba(14,8,8,.9) 0%,rgba(14,8,8,.84) 50%,rgba(14,8,8,0) 88%),url(https://commons.wikimedia.org/wiki/Special:FilePath/Sun_Yat-sen_Mausoleum_-_54400198691.jpg?width=700) center 25%/cover no-repeat #3a1c1f}
+.stats .stat:nth-child(5){background:linear-gradient(to top,rgba(14,8,8,.9) 0%,rgba(14,8,8,.84) 50%,rgba(14,8,8,0) 88%),url(https://commons.wikimedia.org/wiki/Special:FilePath/Nanjing_salted_duck.JPG?width=700) center 40%/cover no-repeat #3a1c1f}
