@@ -1,0 +1,18 @@
+:root{--red:#9b2226;--ink:#1d2a2f;--bg:#faf6ef;--card:#fff;--gold:#c9a227}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+header.hero{min-height:min(70vh,560px);display:flex;flex-direction:column;justify-content:flex-end;padding:2rem 6vw 3rem;color:#fff;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.7)),url(https://commons.wikimedia.org/wiki/Special:FilePath/Sun_Yat-sen_Mausoleum_-_54400198691.jpg?width=900) center/cover}
+.hero .cn{font-size:1.2rem;letter-spacing:.4em;opacity:.9}.hero h1{font-size:clamp(2.4rem,7vw,5rem);margin:.2em 0}.hero p{max-width:34rem;font-size:1.15rem}
+.badge{display:inline-block;background:var(--gold);color:#222;padding:.3rem .9rem;border-radius:99px;font-weight:600;width:fit-content}
+nav{position:sticky;top:0;background:var(--red);display:flex;gap:1.5rem;padding:.7rem 6vw;z-index:9;overflow-x:auto}
+nav a{color:#fff;text-decoration:none;font-weight:600;white-space:nowrap}
+section{padding:3.5rem 6vw;max-width:1200px;margin:auto}h2{font-size:2rem;color:var(--red);margin-top:0}h2 small{font-size:1rem;color:#777;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:1.4rem}
+.card{background:var(--card);border-radius:14px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.08)}
+.card img{width:100%;height:190px;object-fit:cover;display:block}.card>div{padding:1rem 1.1rem 1.2rem}.card h3{margin:.1rem 0}.card .cn{color:var(--red);font-size:.95rem}
+.tag{display:inline-block;font-size:.75rem;background:#f1e4c8;border-radius:6px;padding:.1rem .5rem;margin-top:.3rem}
+.stats{display:flex;gap:1rem;flex-wrap:wrap}.stat{flex:1;min-width:150px;background:var(--card);border-radius:14px;padding:1.2rem;text-align:center;box-shadow:0 4px 16px rgba(0,0,0,.08)}.stat b{display:block;font-size:1.7rem;color:var(--red)}
+.days{display:grid;gap:1rem}.day{background:var(--card);border-left:6px solid var(--red);border-radius:10px;padding:1rem 1.3rem}.day h3{margin:0 0 .3rem}
+.note{background:#f1e4c8;border-radius:10px;padding:1rem 1.2rem}
+footer{background:var(--ink);color:#bbb;padding:2rem 6vw;font-size:.85rem}footer a{color:#e9c46a}
+.ph{height:190px;display:flex;align-items:center;justify-content:center;font-size:3rem;color:#fff;font-weight:700;letter-spacing:.1em}
+.card img{background:#ddd}
